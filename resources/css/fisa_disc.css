@@ -1,0 +1,138 @@
+.input_element {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid white;
+    display: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+
+}
+
+pre {
+    border: none;
+    padding: 0;
+    margin: 0;
+    white-space: pre-wrap;
+
+
+}
+
+.table-fisa-disc {
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+
+
+}
+
+.table-fisa-disc2 {
+    resize: none;
+    overflow: hidden;
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+
+    /*display: inline-block;*/
+}
+
+.table-fisa-disc2 td {
+    border: 1px solid black;
+    height: 20px;
+
+}
+
+.vertical {
+    /*writing-mode: vertical-rl;*/
+    /*text-orientation: revert;*/
+}
+
+.table-fisa-disc th,
+.table-fisa-disc td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 20px;
+
+    font-size: 13px;
+
+
+    /*border-spacing: 0;*/
+    /*padding: 0;*/
+
+}
+
+.table-fisa-disc tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+}
+
+.table-fisa-disc thead {
+    display: table-header-group;
+}
+
+.break_avoid {
+    page-break-inside: avoid;
+}
+
+.table-fisa-disc2 th {
+    border-collapse: collapse;
+    height: 20px;
+    /*border-spacing: 0;*/
+    /*padding: 0;*/
+
+}
+
+.table-fisa-disc2 tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+}
+
+.table-fisa-disc2 thead {
+    display: table-header-group;
+}
+
+.to_complete {
+    /*border: 1px solid black;*/
+}
+
+.input_td {
+    font-family: Lato;
+    font-size: 12px;
+
+}
+
+span {
+    font-family: Lato;
+    font-size: 12px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.stamp_panel {
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 0;
+    padding-left: 0;
+    word-wrap: break-word;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+.curriculum-table {
+    font-size: 11px;
+    font-family: Calibri;
+    bottom: 15px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 0;
+}
+
+
+
+.curriculum-table th,
+.curriculum-table td {
+    border:  1px solid #404040 ;
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 2px;
+
+}
+.curriculum-table thead{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+div p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+#first{
+    float:left;
+    width: 35%;
+}
+#second{
+    float:left;
+    width:30%;
+    text-align: center;
+
+}
+
+#title{
+    font-size: 20px;
+
+
+}
+
+#third{
+text-align: right;
+    float:right;
+}
+
+#rector{
+    float:left;
+    width: 35%;
+}
+
+#dean{
+    float:left;
+    width:30%;
+    text-align: center;}
+
+
+#director{
+
+    text-align: right;
+    float:right;
+}
+
+.names{
+    position: absolute;
+    bottom:0;
+}
+
+.curriculum{
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+@page{
+    margin: 2%;
+
+}
+
