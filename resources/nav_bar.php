@@ -27,7 +27,7 @@ $domains = mysqli_query($dbCon->getCon(), "SELECT denumire FROM domenii ");
                 <li  class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Discipline </a>
                     <ul class="dropdown-menu">
-                        <a class="dropdown-item" href="adaugare_disciplina.php">Adaugare disciplina</a>
+                        <a class="dropdown-item" href="adaugare_disciplina.php">Adaugare disciplineee</a>
                         <li><a class="dropdown-item"> Licenta &raquo </a>
                             <ul class="submenu dropdown-menu">'?>
                                 <?php foreach ($specializations_L as $specialization_name){ ?>
